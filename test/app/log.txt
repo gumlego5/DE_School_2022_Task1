@@ -1,2 +1,0 @@
-INFO:root:I am info
-ERROR:root:I am error
