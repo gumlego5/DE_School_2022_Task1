@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  app:
+    container_name: app_prod
+    build:
+      context: ./app/
+      dockerfile: dockerfile.prod
+    stdin_open: true
+    tty: true 
+  db:
+    container_name: database_prod
+    build: ./database_prod/

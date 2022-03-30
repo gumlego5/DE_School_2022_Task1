@@ -1,6 +1,6 @@
 FROM python:latest
 WORKDIR /code
-ENV PROD_STATUS 0
+ENV PROD_STATUS 1
 ADD requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 COPY app.py app.py
