@@ -2,11 +2,10 @@
 First task for DE_School_2022
 
 Tables:
-    1) heroes - Store heroes information: id,side,name,birthday year, magic(1,0), power(int), moto relates to heroes_motos, 
-        heroes_histories relates to heroes_histories, battle relation to battles
-    2) heroes_motos - Store heroes motos: id, hero_id, moto_id, moto
-    3) heroes_histories - Store heroes hostories: id, hero_id, story, heroes relates to heroes
-    4) battles - id, hero_1_id, hero_1_moto_id, hero_2_id, hero_2_moto_id, winner
+1) heroes - Store heroes information: id,side,name,birthday year, magic(1,0), power(int), moto relates to heroes_motos, heroes_histories relates to heroes_histories, battle relation to battles
+2) heroes_motos - Store heroes motos: id, hero_id, moto_id, moto 
+3) heroes_histories - Store heroes hostories: id, hero_id, story, heroes relates to heroes 
+4) battles - id, hero_1_id, hero_1_moto_id, hero_2_id, hero_2_moto_id, winner
 
 How to start project:
 1 Go to /services/ folder
